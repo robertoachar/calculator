@@ -27,3 +27,10 @@ describe('DIVIDE Tests', () => {
     done();
   });
 });
+
+describe('POW Tests', () => {
+  test('should return 4', (done) => {
+    expect(calculator.pow(2, 2)).toBe(4);
+    done();
+  });
+});
