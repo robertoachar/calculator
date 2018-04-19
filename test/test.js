@@ -2,7 +2,7 @@ const calculator = require('../src');
 
 describe('SUM Tests', () => {
   test('should return 10', (done) => {
-    expect(calculator.sum(5, 5)).toBe(10);
+    expect(calculator.sum(5, 10)).toBe(15);
     done();
   });
 });
