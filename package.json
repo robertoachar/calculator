@@ -1,16 +1,12 @@
 {
-  "name": "calculator",
+  "name": "@robertoachar/calculator",
   "version": "1.0.0",
   "description": "Calculator.",
   "author": "Roberto Achar <robertoachar@gmail.com>",
   "homepage": "https://github.com/robertoachar/calculator#readme",
-  "keywords": [
-    "node"
-  ],
+  "keywords": ["node"],
   "main": "src/index.js",
-  "files": [
-    "src"
-  ],
+  "files": ["src"],
   "scripts": {
     "lint": "eslint src/**/*.js",
     "start": "node src/index.js"
