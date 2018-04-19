@@ -1,5 +1,5 @@
 module.exports.sum = (x, y) => {
-  return x + x;
+  return x + y;
 };
 
 module.exports.subtract = (x, y) => {
