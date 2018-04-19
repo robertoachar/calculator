@@ -13,3 +13,7 @@ module.exports.multiply = (x, y) => {
 module.exports.divide = (x, y) => {
   return x / y;
 };
+
+module.exports.pow = (x, y) => {
+  return x ** y;
+};
